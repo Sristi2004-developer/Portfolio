@@ -1,0 +1,187 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background-color:rgb(221, 200, 232);
+  color:black;
+  font-family:'Poppins',sans-serif;
+
+}
+
+nav{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  height:80px;
+  background-color:rgb(142, 109, 158) ;
+}
+nav ul{
+  display:flex;
+  justify-content:center;
+
+
+}
+
+nav ul li{
+  list-style:none;
+  margin:0 23px;
+ 
+}
+nav ul li a{
+  text-decoration:none;
+  color:white;
+  
+}
+nav ul li a:hover{
+  color:rgb(115, 79, 149);
+ 
+  font-size: 1.04rem;
+
+}
+main hr{
+  border:0;
+ background:rgb(40, 14, 65); 
+  height:1.2px;
+  margin:40px 84px;
+  color:rgb(37, 14, 60);
+}
+.left{
+  font-size:1.5rem;
+  align-items: center;
+}
+.firstsection{
+  display:flex;
+  justify-content:space-around;
+  margin:3px 0;
+ 
+  
+}
+.firstsection > div{
+ width:30%;
+}
+.leftsection .buttons{
+  padding:23px;
+
+}
+.leftsection{
+ margin:70px 0;
+  font-size: 32px;
+  width:70%;
+ 
+}
+.leftsection .btn{
+  padding:12px;
+  background-color: rgb(136, 57, 210);
+  border-radius:6px;
+  font-size:20px;
+  cursor:pointer;
+}
+.rightsection img{
+  width:90%;
+  margin: 50px 0;
+
+}
+
+.secondSection{
+  max-width:68.7 rem;
+  margin:auto;
+  text-align:center;
+  margin-top:2.5 rem;
+}
+.secondSection h1{
+  margin-bottom:1 rem;
+}
+.skills-wrapper img{
+padding:1.25 rem;
+}
+.setanimate{
+  width:40 px;
+  height:50px;
+}
+.icon{
+  width:80px;
+  height:70px;
+}
+.icon-card{
+  padding:20px;
+  margin: 10px;
+  border-radius: 11px;
+  background-color: #fff;
+  box-shadow: 0 3px 10px var(--secondary-shadow);
+}
+.bio p{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.23rem;
+}
+.footer{
+  display:flex;
+  background-color: rgb(209, 163, 233);
+  
+  margin-top: 160px;
+  justify-content: space-evenly;
+}
+.footer-first h3{
+  margin-top:10px;
+}
+.footer ul{
+  list-style:none;
+  margin-top: 10px;
+  margin-left:100px;
+}
+.footer > div{
+  width:223px;
+}
+footer .footer-rights{
+  text-align:center;
+  color:gray;
+  padding:12px 0;
+  background-color:rgb(209, 163, 233);
+}
+.projects{
+  background-color:var(--bg-color);
+  padding:32px 0;
+  margin-top: 2 rem;
+ 
+  
+
+}
+.project-pic{
+  width:55%;
+  height:10%;
+}
+.projects-container{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-top:30px;
+ 
+}
+.project-title{
+  text-align:center;
+  margin-top:110px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.project-card{
+  border-radius:11px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
+  padding:20px;
+  margin:10px;
+}
+.projects a{
+  text-decoration:none;
+}
+ .btn3{
+  padding:12px;
+  background-color: rgb(136, 57, 210);
+  border-radius:6px;
+  font-size:10px;
+  cursor:pointer;
+ }
+ .btn4{
+  padding:12px;
+  background-color: rgb(136, 57, 210);
+  border-radius:6px;
+  font-size:10px;
+  cursor:pointer;
+ }
